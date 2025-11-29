@@ -14,6 +14,33 @@ export type Database = {
   }
   public: {
     Tables: {
+      movies: {
+        Row: {
+          created_at: string
+          description: string
+          id: string
+          poster_url: string | null
+          release_year: number
+          title: string
+        }
+        Insert: {
+          created_at?: string
+          description: string
+          id?: string
+          poster_url?: string | null
+          release_year: number
+          title: string
+        }
+        Update: {
+          created_at?: string
+          description?: string
+          id?: string
+          poster_url?: string | null
+          release_year?: number
+          title?: string
+        }
+        Relationships: []
+      }
       reviews: {
         Row: {
           created_at: string
