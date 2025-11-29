@@ -4,6 +4,35 @@
 
 **URL**: https://lovable.dev/projects/348c0893-f047-4ed5-8aa3-25065353da22
 
+## App Description
+
+Movie Muse is a full-stack web application that allows users to submit and browse movie reviews. Users can rate movies, write detailed reviews, and view all submitted reviews in a clean, intuitive interface. The application demonstrates modern web development practices with real-time database integration.
+
+## Features
+
+- ✨ Submit movie reviews with ratings (1-5 stars)
+- 📝 Add detailed review text and personal comments
+- 🎬 Store movie information (title, genre, release year)
+- 📊 View all submitted reviews in an organized list
+- 🔥 Real-time data persistence with Firebase/Supabase
+- 📱 Responsive design that works on all devices
+- 🎨 Modern UI built with React and Tailwind CSS
+
+## Database Schema
+
+The application uses the following database structure:
+
+**Reviews Collection/Table:**
+- `id` - Unique identifier (auto-generated)
+- `movieTitle` - String (movie name)
+- `genre` - String (action, comedy, drama, etc.)
+- `releaseYear` - Number (year of release)
+- `rating` - Number (1-5 stars)
+- `reviewText` - Text (user's review)
+- `reviewerName` - String (name of the person reviewing)
+- `createdAt` - Timestamp (when review was submitted)
+
+
 ## How can I edit this code?
 
 There are several ways of editing your application.
@@ -98,3 +127,5 @@ Yes, you can!
 To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
 
 Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+
+
